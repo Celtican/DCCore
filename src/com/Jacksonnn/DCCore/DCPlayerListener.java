@@ -50,7 +50,7 @@ public class DCPlayerListener implements Listener {
             Bukkit.getLogger().info("[DCCore] There is not a DCPlayer for " + e.getPlayer().getName() + " (" + e.getPlayer().getUniqueId() + ")... Error code: 4.");
         }
     }
-
+ 
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent e) {
         // Not really sure why we have this in the first place.
